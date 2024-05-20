@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-moveVertical {
+  animation: moveVertical 6s linear infinite;
+  writing-mode: vertical-lr;
+  transform: rotate(360deg);
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .animate-moveVertical {
+    animation: moveHorizontal 10s linear infinite;
+    writing-mode: horizontal-tb;
+    transform: rotate(360deg);
+    text-align: center;
+  }
+}
