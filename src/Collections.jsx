@@ -326,7 +326,7 @@ function Collections() {
           </header>
         </section>
         {/* aside for purple text ribbon */}
-        <aside className="flex bg-fuchsia-400 w-20 max-md:ml-0 max-md:w-full max-sm:w-full max-sm:mt-10">
+        <aside className="flex bg-violet-400 w-20 max-md:ml-0 max-md:w-full max-sm:w-full max-sm:mt-10">
           <div className=" flex flex-row justify-center  grow gap-0 max-md:flex-wrap overflow-hidden max-sm:w-screen">
             <p className="   my-2 text-2xl font-bold text-black  animate-moveVertical">
               Clifton Hotel, Near ISBT road, main market Janpath, New delhi
